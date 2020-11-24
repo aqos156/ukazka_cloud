@@ -1,0 +1,5 @@
+.DS_Store
+
+./ukazka4-moodle
+
+!ukazka4-moodle/docker-compose.yml

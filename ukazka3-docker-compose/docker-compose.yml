@@ -1,0 +1,16 @@
+version: "3"
+services:
+  prvni_web:
+    image: php:7-apache
+    ports:
+      - 8081:80
+    volumes:
+      - ./prvni_aplikace:/var/www/html
+      
+  druhy_web:
+    image: php:7-apache
+    ports:
+      - 8082:80
+    volumes:
+      - ./druha_aplikace:/var/www/html
+
